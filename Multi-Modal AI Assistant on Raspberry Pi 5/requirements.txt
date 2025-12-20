@@ -1,0 +1,33 @@
+# Raspberry Pi 5 Offline AI Assistant Requirements
+# Core dependencies for the AI assistant
+
+# LLM and AI
+llama-cpp-python==0.2.20
+ultralytics==8.0.196
+
+# Computer Vision and Camera
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+
+# RAG and Embeddings (Optional)
+sentence-transformers==2.2.2
+chromadb==0.4.15
+
+# System Monitoring
+psutil==5.9.6
+
+# Utilities
+numpy==1.24.3
+Pillow==10.0.1
+
+# Additional dependencies for Raspberry Pi
+# Note: Some packages may need to be installed via apt-get
+# sudo apt-get install python3-opencv python3-numpy
+
+# Optional: For better performance
+# torch==2.0.1  # Uncomment if you want to use PyTorch instead of ultralytics
+# torchvision==0.15.2
+
+# Development and debugging (optional)
+# matplotlib==3.7.2
+# jupyter==1.0.0
