@@ -1,0 +1,6 @@
+This file is part of the offline knowledge base used by the assistant's
+Retrieval Augmented Generation (RAG) pipeline.
+
+You can add any reference notes, documentation, or reminders here and
+they will be loaded and indexed on startup.
+

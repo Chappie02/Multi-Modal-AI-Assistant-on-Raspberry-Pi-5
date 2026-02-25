@@ -1,0 +1,12 @@
+llama-cpp-python
+ultralytics
+picamera2
+sounddevice
+numpy
+Pillow
+adafruit-circuitpython-ssd1306
+RPi.GPIO
+vosk
+chromadb
+sentence-transformers
+rpi-lgpio

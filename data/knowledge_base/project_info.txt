@@ -1,0 +1,7 @@
+This file can contain project-specific information, such as setup
+instructions, hardware pin mappings, or frequently asked questions
+about how the assistant is configured.
+
+The assistant will use this information as additional context when
+answering questions in LLM conversation mode (K1).
+
