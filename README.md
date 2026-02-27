@@ -381,7 +381,9 @@ No terminal interaction is required after launch. All feedback is delivered thro
 
 
 ## Screenshots
-![Untitled](https://github.com/user-attachments/assets/2211b823-ea61-4bdd-9bb5-43c0f1450c62)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2211b823-ea61-4bdd-9bb5-43c0f1450c62" width="500">
+</p>
 ![W![Untitled](https://github.com/user-attachments/assets/e21d83fe-214d-446e-8455-0748ebc4b440)
 hatsApp Image 2026-02-27 at 7 07 10 AM](https://github.com/user-attachments/assets/913da2bd-7748-4fc3-b378-35c95680a539)
 
