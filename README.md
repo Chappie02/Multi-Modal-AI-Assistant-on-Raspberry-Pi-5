@@ -379,5 +379,5 @@ No terminal interaction is required after launch. All feedback is delivered thro
 - YOLOv8 Nano is the smallest variant in the YOLO family; larger models (e.g., YOLOv8s, YOLOv8m) will exceed practical inference time on the Pi 5.
 
 ## License
-
-This project is provided as-is for educational and research purposes.
+Released under MIT License
+Copyright (c) 2020 Pratik Sharma
