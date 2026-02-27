@@ -380,4 +380,4 @@ No terminal interaction is required after launch. All feedback is delivered thro
 
 ## License
 Released under MIT License
-Copyright (c) 2020 Pratik Sharma
+Copyright (c) 2026 Suhas S Telkar
