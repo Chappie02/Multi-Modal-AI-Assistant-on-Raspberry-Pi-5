@@ -15,8 +15,8 @@ This system runs without any cloud APIs, external servers, or terminal interacti
 - [Hardware Requirements](#hardware-requirements)
 - [Hardware Wiring](#hardware-wiring)
   - [OLED Display (SSD1306 0.96" I2C)](#oled-display-ssd1306-096-i2c)
-  - [Push Buttons (K1, K2, K3)](#push-buttons-k1-k2-k3)
-- [Button Controls](#button-controls)
+  - [Buttons (K1, K2, K3)](#push-buttons-k1-k2-k3)
+- [speed switch Push Button Controls](#button-controls)
 - [Operating Modes](#operating-modes)
   - [LLM Conversation Mode (K1)](#llm-conversation-mode-k1)
   - [Object Detection Mode (K2)](#object-detection-mode-k2)
@@ -29,6 +29,7 @@ This system runs without any cloud APIs, external servers, or terminal interacti
   - [4. Model Downloads](#4-model-downloads)
   - [5. Hardware Interface Configuration](#5-hardware-interface-configuration)
 - [Usage](#usage)
+- [Screenshots](#Screenshots)
 - [License](#license)
 
 ---
@@ -377,6 +378,13 @@ No terminal interaction is required after launch. All feedback is delivered thro
 - The RAG vector store uses a rolling window of 100 conversation entries to prevent unbounded disk and memory growth.
 - The embedding model (`all-MiniLM-L6-v2`) is loaded once as a singleton and retained in memory for the process lifetime.
 - YOLOv8 Nano is the smallest variant in the YOLO family; larger models (e.g., YOLOv8s, YOLOv8m) will exceed practical inference time on the Pi 5.
+
+
+## Screenshots
+![Untitled](https://github.com/user-attachments/assets/2211b823-ea61-4bdd-9bb5-43c0f1450c62)
+![W![Untitled](https://github.com/user-attachments/assets/e21d83fe-214d-446e-8455-0748ebc4b440)
+hatsApp Image 2026-02-27 at 7 07 10 AM](https://github.com/user-attachments/assets/913da2bd-7748-4fc3-b378-35c95680a539)
+
 
 ## License
 
