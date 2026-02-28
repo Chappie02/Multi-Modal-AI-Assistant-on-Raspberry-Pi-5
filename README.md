@@ -87,7 +87,6 @@ This system runs without any cloud APIs, external servers, or terminal interacti
 | Microphone              | USB microphone                    |
 | Speaker                 | USB speaker or 3.5mm w/ USB DAC   |
 | Display                 | 0.96 inch OLED display rotary encoder combination module|
-| Python                  | 3.11                              |
 
 ---
 
