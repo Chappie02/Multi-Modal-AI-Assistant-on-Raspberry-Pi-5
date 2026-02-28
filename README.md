@@ -29,7 +29,7 @@ This system runs without any cloud APIs, external servers, or terminal interacti
   - [4. Model Downloads](#4-model-downloads)
   - [5. Hardware Interface Configuration](#5-hardware-interface-configuration)
 - [Usage](#usage)
-- [Screenshots](#Screenshots)
+- [Demo](#Demo)
 - [License](#license)
 
 ---
@@ -379,7 +379,7 @@ No terminal interaction is required after launch. All feedback is delivered thro
 - YOLOv8 Nano is the smallest variant in the YOLO family; larger models (e.g., YOLOv8s, YOLOv8m) will exceed practical inference time on the Pi 5.
 
 
-## Screenshots
+## Demo
 <p align="left">
   <img src="https://github.com/user-attachments/assets/2211b823-ea61-4bdd-9bb5-43c0f1450c62" width="500">
 </p>
