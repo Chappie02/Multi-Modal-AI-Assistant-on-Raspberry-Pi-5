@@ -85,7 +85,7 @@ This system runs without any cloud APIs, external servers, or terminal interacti
 | Operating System        | Raspberry Pi OS 64-bit (Bookworm) |
 | Camera                  | Raspberry Pi Camera Module v2/v3  |
 | Microphone              | USB microphone                    |
-| Speaker                 | USB speaker or 3.5mm w/ USB DAC   |
+| Speaker                 | USB speaker    |
 | Display                 | 0.96 inch OLED display rotary encoder combination module|
 
 ---
