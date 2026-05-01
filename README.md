@@ -348,7 +348,6 @@ sudo reboot
 ## Usage
 
 ```bash
-cd ~/Desktop/mark69/assistant
 source venv/bin/activate
 python main.py
 ```
