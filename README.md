@@ -52,11 +52,12 @@ This system runs without any cloud APIs, external servers, or terminal interacti
 |  |                     |    |  Controller (main thread)            |  |
 |  |  Camera Module -----+--->|     |                |               |  |
 |  |                     |    |     |                v               |  |
-|  |  SSD1306 OLED <-----+----|     |           LLM(llama.cpp)       |  |
+|  |  SSD1306 OLED <-----+----|     |           AudioRecorder        |  |
+|  |                     |    |     |           (sounddevice)        |  |
 |  |  (I2C: SDA/SCL)     |    |     |                |               |  |
-|  |                     |    |     |                v               |  |
-|  |                     |    |   Vision        AudioRecorder        |  |
-|  |                     |    |   (YOLO         (sounddevice)        |  |
+|  |                     |    |     v                v               |  |
+|  |                     |    |   Vision        LLM(llama.cpp)       |  |
+|  |                     |    |   (YOLO              |               |  |
 |  |                     |    |    v8n)              |               |  |
 |  +---------------------+    |     |                v               |  |
 |                             |     |             STT (Vosk)         |  |
