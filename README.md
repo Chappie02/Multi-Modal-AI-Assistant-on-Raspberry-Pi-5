@@ -50,15 +50,18 @@ This system runs without any cloud APIs, external servers, or terminal interacti
 |  |  USB Microphone ----+--->|       |                              |  |
 |  |  USB Speaker <------+----|       v                              |  |
 |  |                     |    |  Controller (main thread)            |  |
-|  |  Camera Module -----+--->|   |        |         |               |  |
-|  |                     |    |   v        v         v               |  |
-|  |  SSD1306 OLED <-----+----|  LLM    Vision    AudioRecorder      |  |
-|  |  (I2C: SDA/SCL)     |    |  (llama  (YOLO    (sounddevice)      |  |
-|  |                     |    |   .cpp)   v8n)      |                |  |
-|  +---------------------+    |   |        |        v                |  |
-|                             |   |        |     STT (Vosk)          |  |
-|                             |   |        |        |                |  |
-|                             |   v        v        v                |  |
+|  |  Camera Module -----+--->|     |                |               |  |
+|  |                     |    |     |                v               |  |
+|  |  SSD1306 OLED <-----+----|     |           LLM(llama.cpp)       |  |
+|  |  (I2C: SDA/SCL)     |    |     |                |               |  |
+|  |                     |    |     |                v               |  |
+|  |                     |    |   Vision        AudioRecorder        |  |
+|  |                     |    |   (YOLO         (sounddevice)        |  |
+|  |                     |    |    v8n)              |               |  |
+|  +---------------------+    |     |                v               |  |
+|                             |     |             STT (Vosk)         |  |
+|                             |     |                |               |  |
+|                             |     v                v               |  |
 |                             |  TTS (espeak) <-- response           |  |
 |                             |                                      |  |
 |                             |  RAG Memory                          |  |
@@ -262,9 +265,7 @@ The SSD1306 should appear at address `0x3C`.
 
 ### 2. Virtual Environment Setup
 
-```bash
-cd ~/Desktop/mark69/assistant
-
+```
 python3 -m venv venv --system-site-packages
 source venv/bin/activate
 ```
